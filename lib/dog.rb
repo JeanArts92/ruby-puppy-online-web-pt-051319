@@ -12,8 +12,8 @@ class Dog
     @@all.clear
   end
   
-  def self.name
-   puts @name
+  def self.all
+    
   end 
   
 end 
