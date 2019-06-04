@@ -11,6 +11,7 @@ class Dog
   def self.clear_all
     if @@all > @@all[0]
       @@all.pop
+    end 
   
   def self.all 
    @@all << @name
