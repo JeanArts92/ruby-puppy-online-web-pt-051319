@@ -9,7 +9,7 @@ class Dog
   end 
   
   def self.clear_all
-    if @@all > @@all[0]
+    if @@all[0] > @@all[0]
       @@all.pop
     end 
   end
