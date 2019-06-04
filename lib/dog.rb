@@ -12,6 +12,7 @@ class Dog
     if @@all > @@all[0]
       @@all.pop
     end 
+  end
   
   def self.all 
    @@all << @name
