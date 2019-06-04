@@ -10,7 +10,7 @@ class Dog
   
   def self.clear_all
     if @@all > @@all[0]
-      @@all.push
+      @@all.pop
   
   def self.all 
    @@all << @name
