@@ -13,7 +13,7 @@ class Dog
   end
   
   def self.all 
-   
+   print @@all
   end 
   
 end 
